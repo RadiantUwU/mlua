@@ -14,6 +14,7 @@ pub use crate::{
     UserDataMethods as LuaUserDataMethods, UserDataRef as LuaUserDataRef,
     UserDataRefMut as LuaUserDataRefMut, UserDataRegistry as LuaUserDataRegistry, Value as LuaValue,
     VmState as LuaVmState,
+    ThreadEventInfo as LuaThreadEventInfo
 };
 
 #[cfg(not(feature = "luau"))]
